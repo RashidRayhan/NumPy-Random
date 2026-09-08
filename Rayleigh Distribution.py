@@ -5,6 +5,6 @@ import seaborn as sns
 x = random.rayleigh(scale = 2, size = (2, 3))
 print(x)
 
-arr = random.rayleigh(scale = 2, size = (2, 3))
+arr = random.rayleigh(scale = 2, size = 100)
 sns.displot(arr, kind = "kde")
 plt.show()

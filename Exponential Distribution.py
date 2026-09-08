@@ -6,6 +6,6 @@ x = random.exponential(scale = 10, size = (2, 3))
 print(x)
 
 
-arr = random.exponential (scale = 10, size = (2, 3))
+arr = random.exponential (scale = 10, size = 100)
 sns.displot(arr, kind = "kde")
 plt.show()
