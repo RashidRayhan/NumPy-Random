@@ -70,3 +70,13 @@ arr1 = np.array([10, 11, 12, 13, 14, 15])
 arr2 = np.array([20, 21, 22, 23, 24, 25])
 arr2 = np.mod(arr1, arr2)
 print(arr2)
+
+
+
+
+
+np.random.seed(5)
+
+a = np.random.rand(3)
+
+print(a)
